@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #121212;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px 20px;
+  color: #f0f0f0;
+}
+
+.profile-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.profile-card {
+  background-color: #1e1e1e;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-8px);
+}
+
+.card-image {
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-photo {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #ffffff33;
+  margin-top: -40px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+}
+
+.title {
+  color: #56ccf2;
+  font-size: 0.95rem;
+  margin-bottom: 12px;
+}
+
+.bio {
+  font-size: 0.9rem;
+  color: #cccccc;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.follow {
+  background-color: #2d9cdb;
+  color: white;
+}
+
+.follow:hover {
+  background-color: #56ccf2;
+}
+
+.info {
+  background-color: #333333;
+  color: white;
+}
+
+.info:hover {
+  background-color: #555;
+}
