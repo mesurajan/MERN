@@ -1,0 +1,199 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  color: #4f5665;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/* Header container */
+.hero-header {
+  background-color: #fff;
+  padding: 20px 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Logo */
+.header__logo-image {
+  height: 36px;
+  width: auto;
+
+}
+
+/* Nav styles */
+.header__nav {
+  flex: 1;
+  text-align: center;
+  
+}
+
+.header__nav-list {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  margin-left: 40px; 
+}
+
+.header__nav-list li a {
+  text-decoration: none;
+  color: #4f5665;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.header__nav-list li a:hover {
+  color: #f53855;
+}
+
+/* Auth buttons */
+.header__actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 150px;
+  
+}
+
+.header__button {
+  text-decoration: none;
+  font-weight: 600;
+  color: #0b132a;
+  font-size: 16px;
+}
+
+.header__button--secondary {
+  padding: 10px 25px;
+  border: 1px solid #f53855;
+  border-radius: 25px;
+  color: #f53855;
+  transition: all 0.3s ease;
+}
+
+.header__button--secondary:hover {
+  background-color: #f53855;
+  color: #fff;
+}
+
+/* Home section */
+.home {
+  padding: 80px 40px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.home__title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #0b132a;
+  margin-bottom: 20px;
+}
+
+.home__description {
+  font-size: 18px;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-inline: auto;
+  color: #4f5665;
+}
+
+.home__button {
+  padding: 12px 36px;
+  background-color: #f53855;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.home__button:hover {
+  background-color: #e02946;
+}
+
+.home-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    
+}
+@media (max-width: 992px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header__nav-list {
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+
+  .header__actions {
+    margin-top: 10px;
+  }
+
+  .home {
+    padding: 60px 20px;
+  }
+
+  .home__title {
+    font-size: 28px;
+  }
+
+  .home__description {
+    font-size: 16px;
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 600px) {
+  .hero-header {
+    padding: 15px 20px;
+  }
+
+  .header__logo-image {
+    height: 30px;
+  }
+
+  .header__nav-list {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+     margin-left: 0;
+  }
+
+  .header__actions {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .home__title {
+    font-size: 24px;
+  }
+
+  .home__description {
+    font-size: 15px;
+  }
+
+  .home__button {
+    padding: 10px 25px;
+  }
+}
