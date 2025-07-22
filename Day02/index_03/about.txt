@@ -1,4 +1,16 @@
+<<<<<<< HEAD
 
 
 
+=======
+<<<<<<< HEAD
+
+
+
+=======
+
+
+
+>>>>>>> ca51c7df7a277d10a6564b7bbc3c48a72b501b88
+>>>>>>> 4b939c7eca0a5c6744fe021d1e8841b6c68edde7
 we  are learining css today basic css
