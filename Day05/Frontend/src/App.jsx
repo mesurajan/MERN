@@ -42,3 +42,6 @@ function App() {
 }
 
 export default App;
+
+
+//array method we wil be looking tommorrow
