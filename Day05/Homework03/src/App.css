@@ -1,0 +1,25 @@
+body{
+  background-color: black;
+  color: bisque;
+  display: flex;
+justify-content: center;
+}
+.main-body{
+  text-align: justify;
+  border: 10px solid rgb(254, 204, 204);
+  padding: 20px;
+  max-width: 800px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.description-content{
+  display: flex;
+
+}
+.bank-logo{
+  max-height: 300px;
+  max-width: 300px;
+  border-radius :8px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
